@@ -1,0 +1,29 @@
+{
+  "name": "afip-ocr",
+  "version": "1.0.0",
+  "description": "afip invoice qr reader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastianlopezanido/afip-ocr.git"
+  },
+  "keywords": [
+    "AFIP",
+    "OCR",
+    "QR"
+  ],
+  "author": "Sebastian Lopez Anido (tuki.lopeza)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebastianlopezanido/afip-ocr/issues"
+  },
+  "homepage": "https://github.com/sebastianlopezanido/afip-ocr#readme",
+  "dependencies": {
+    "jimp": "^0.22.12",
+    "jsqr": "^1.4.0",
+    "pdf-to-img": "^4.0.0"
+  }
+}
